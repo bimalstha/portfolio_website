@@ -2,17 +2,17 @@ import styled from "styled-components";
 
 export type card = {
   ProjectName: string;
-  Level: string;
-  Contact: string;
+  FrameWork: string;
+  Language: string;
 };
 
 const IdCard = ({ props }: { props: card }) => {
   return (
     <IdCardStyle>
-      <img src="../src/assets/bimal.jpg" alt="bimal id" />
+      <img src="../src/assets/bimal.jpg" alt="bimal's id" />
       <li>Name: {props.ProjectName}</li>
-      <li>Level: {props.Level}</li>
-      <li>Contact: {props.Contact}</li>
+      <li>Level: {props.FrameWork}</li>
+      <li>Contact: {props.Language}</li>
     </IdCardStyle>
   );
 };
@@ -20,7 +20,7 @@ const IdCard = ({ props }: { props: card }) => {
 const IdCardStyle = styled.div`
   border: 1px solid green;
   display: inline-block;
-  margin: 10px 15px;
+
 `;
 
 export default IdCard;

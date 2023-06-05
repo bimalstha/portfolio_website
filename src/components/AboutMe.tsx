@@ -21,9 +21,17 @@ const AboutMe: React.FC<aboutMe> = ({ projectList }) => {
           debitis sapiente eos deleniti.
         </p>
       </div>
+      <h1>My Projects</h1>
       <div className="project-cards">
-        <h1>My Projects</h1>
-        <li>Title:{projectList[0].ProjectName}</li>
+        {/* {projectList.map((item) => {
+          return (
+            <div className="card-div">
+              <li>Title:{item.ProjectName}</li>
+              <li>FrameWork:{item.FrameWork}</li>
+              <li>Languagea:{item.Language}</li>
+            </div>
+          );
+        })} */}
       </div>
     </StyledAbout>
   );
@@ -35,7 +43,17 @@ const StyledAbout = styled.div`
   flex-direction: column;
   .aboutMe-content,
   .project-cards {
+    /* border: 1px solid red; */
     flex: 1;
+  }
+  .card-div {
+    border: 1px solid red;
+    height: 100px;
+    width: 200px;
+  }
+  .card-div,
+  .li {
+    list-style: none;
   }
 `;
 

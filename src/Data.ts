@@ -2,11 +2,33 @@ import { card } from "./components/IdCard";
 
 export const data: card[] = [{
     "ProjectName":"ToDo",
-    "Level":"Bachelor",
-    "Contact":"985214578"
+    "FrameWork":"Express",
+    "Language":"JavaScript"
 },
 {
     "ProjectName":"Bibhu",
-    "Level":"Bachelor",
-    "Contact":"985689325"
+    "FrameWork":"Express",
+    "Language":"TypeScript"
+},
+{
+    "ProjectName":"Bibhu",
+    "FrameWork":"Express",
+    "Language":"TypeScript"
+},
+{
+    "ProjectName":"Bibhu",
+    "FrameWork":"Express",
+    "Language":"TypeScript"
+},{
+    "ProjectName":"Bibhu",
+    "FrameWork":"Express",
+    "Language":"TypeScript"
+},{
+    "ProjectName":"Bibhu",
+    "FrameWork":"Express",
+    "Language":"TypeScript"
+},{
+    "ProjectName":"Bibhu",
+    "FrameWork":"Express",
+    "Language":"TypeScript"
 }];

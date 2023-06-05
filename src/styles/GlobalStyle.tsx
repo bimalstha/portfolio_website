@@ -9,5 +9,13 @@ export const StyleGlobal = createGlobalStyle`
    body{
       width: 100vw;
    }
-    
+   button {
+  all: unset;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+button:focus {
+ border: none;
+}
 `;

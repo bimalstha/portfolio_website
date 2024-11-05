@@ -1,4 +1,4 @@
-import { card } from "./components/IdCard";
+import { card } from "./oldComponents/IdCard";
 
 export const data: card[] = [{
     "ProjectName":"ToDo",

@@ -1,15 +1,15 @@
 import styled from "styled-components";
-import Navbar from "./components/Navbar";
-import LandingPage from "./pages/LandingPage";
-import Footer from "./components/Footer";
-import AboutPage from "./pages/AboutPage";
+import Navbar from "./oldComponents/Navbar";
+import LandingPage from "./oldPages/LandingPage";
+import Footer from "./oldComponents/Footer";
+import AboutPage from "./oldPages/AboutPage";
 import { StyleGlobal } from "./styles/GlobalStyle";
-
+import LandingPages from "./pages/LandingPage"; //new
 function App() {
   return (
     <StyledApp>
       <StyleGlobal />
-      <LandingPage />
+      < LandingPages/>
     </StyledApp>
   );
 }

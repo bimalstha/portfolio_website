@@ -2,7 +2,7 @@ import styled from "styled-components";
 import Navbar from "../oldComponents/Navbar";
 import image from "../../src/assets/image.jpg";
 import AboutMe from "../oldComponents/AboutMe";
-import { data } from "../Data";
+import { data } from "../data/Data";
 import Socials from "../oldComponents/Socials";
 
 const LandingPage = () => {

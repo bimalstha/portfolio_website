@@ -7,7 +7,7 @@ export const StyleGlobal = createGlobalStyle`
     box-sizing: border-box;
    } 
    body{
-      width: 100vw;
+      width: 100%;
    }
    button {
   all: unset;
